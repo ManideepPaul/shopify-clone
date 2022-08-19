@@ -23,91 +23,155 @@
     <title>Shopify-Clone</title>
   </head>
   <body>
-    <div class="mainContainer">
-      <section
-        class="topBanner flex justify-center items-start bg-[#A5E3B9] py-5 px-2"
-      >
-        <p class="text-center">
-          Start a free trial and enjoy up to 97% off for 3 months on select
-          plans—offer ends 08/25.
-          <span class="underline decoration-solid font-semibold"
-            >Sign up now</span
-          >
-          &nbsp; &nbsp;
-        </p>
-        <svg
-          class=""
-          xmlns="http://www.w3.org/2000/svg"
-          height="26px"
-          viewBox="0 0 24 24"
-          width="26px"
-          fill="#000000"
+    <!-- Top Banner -->
+    <section
+      class="topBanner flex justify-center items-start bg-[#A5E3B9] py-5 px-2"
+    >
+      <p class="text-center">
+        Start a free trial and enjoy up to 97% off for 3 months on select
+        plans—offer ends 08/25.
+        <span class="underline decoration-solid font-semibold"
+          >Sign up now</span
         >
-          <path d="M0 0h24v24H0V0z" fill="none" />
-          <path
-            d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41z"
-          />
-        </svg>
-      </section>
-      <!-- Large screen Nav -->
-      <nav
-        class="lg-nav hidden lg:flex justify-between px-5 py-3 xl:px-24 bg-heroBg"
+        &nbsp; &nbsp;
+      </p>
+      <svg
+        class=""
+        xmlns="http://www.w3.org/2000/svg"
+        height="26px"
+        viewBox="0 0 24 24"
+        width="26px"
+        fill="#000000"
       >
-        <div class="nav-left flex gap-10 items-center">
-          <img class="w-[120px]" src="./assets/logo.png" alt="" />
-          <div class="left-links flex gap-6">
-            <a href="#" class="links text-[17px] text-textPr font-medium"
-              >Start
-              <img class="inline-block" src="./assets/down-arrow.svg" alt=""
-            /></a>
-            <a href="#" class="links text-[17px] text-textPr font-medium"
-              >Sell
-              <img class="inline-block" src="./assets/down-arrow.svg" alt=""
-            /></a>
-            <a href="#" class="links text-[17px] text-textPr font-medium"
-              >Market
-              <img class="inline-block" src="./assets/down-arrow.svg" alt=""
-            /></a>
-            <a href="#" class="links text-[17px] text-textPr font-medium"
-              >Manage
-              <img class="inline-block" src="./assets/down-arrow.svg" alt=""
-            /></a>
+        <path d="M0 0h24v24H0V0z" fill="none" />
+        <path
+          d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41z"
+        />
+      </svg>
+    </section>
+    <div class="mainContainer max-w-screen-2xl mx-auto">
+      <!-- Navbar -->
+      <section class="navbar">
+        <!-- Large screen Nav -->
+        <nav
+          class="lg-nav hidden lg:flex justify-between px-5 py-3 xl:px-24 bg-heroBg"
+        >
+          <div class="nav-left flex gap-10 items-center">
+            <img class="w-[120px]" src="./assets/logo.png" alt="" />
+            <div class="left-links flex gap-6">
+              <a href="#" class="links text-[17px] text-textPr font-medium"
+                >Start
+                <img class="inline-block" src="./assets/down-arrow.svg" alt=""
+              /></a>
+              <a href="#" class="links text-[17px] text-textPr font-medium"
+                >Sell
+                <img class="inline-block" src="./assets/down-arrow.svg" alt=""
+              /></a>
+              <a href="#" class="links text-[17px] text-textPr font-medium"
+                >Market
+                <img class="inline-block" src="./assets/down-arrow.svg" alt=""
+              /></a>
+              <a href="#" class="links text-[17px] text-textPr font-medium"
+                >Manage
+                <img class="inline-block" src="./assets/down-arrow.svg" alt=""
+              /></a>
+            </div>
+          </div>
+          <div class="nav-right flex gap-6 items-center">
+            <div class="left-links flex gap-6">
+              <a href="#" class="links text-[17px] text-textPr font-medium"
+                >Pricing</a
+              >
+              <a href="#" class="links text-[17px] text-textPr font-medium"
+                >Learn
+                <img class="inline-block" src="./assets/down-arrow.svg" alt=""
+              /></a>
+              <a href="#" class="links text-[17px] text-textPr font-medium"
+                >Log in</a
+              >
+            </div>
+            <button
+              class="nav-btn py-3 px-5 bg-lightGreen text-base text-white font-bold rounded-md hover:bg-darkGreen"
+            >
+              Try for free
+            </button>
+          </div>
+        </nav>
+        <!-- Mobile Nav -->
+        <nav
+          class="mob-nav flex justify-between items-center lg:hidden gap-10 px-5 py-2 bg-heroBg"
+        >
+          <div class="nav-left flex gap-10 items-center">
+            <img class="w-[120px]" src="./assets/logo.png" alt="" />
+          </div>
+          <div class="nav-right flex gap-6 items-center">
+            <div class="left-links flex gap-6">
+              <a href="#" class="links text-[17px] text-textPr font-medium"
+                >Log in</a
+              >
+            </div>
+            <img src="./assets/menu.svg" alt="" />
+          </div>
+        </nav>
+      </section>
+      <!-- Hero Section -->
+      <section
+        class="hero flex flex-col lg:flex-row lg:items-end justify-center bg-heroBg px-5 py-16 xl:px-24"
+      >
+        <div class="hero-left lg:w-1/2 flex flex-col gap-8 pr-10 self-start">
+          <h1 class="text-4xl lg:text-[50px] text-darkGreen font-bold leading-[44px] lg:leading-[66px]">
+            The easiest way to sell <br> online in India
+          </h1>
+          <h6 class="text-xl text-textSec">
+            Try one of the most powerful platforms on the market for free. <br> No
+            technical knowledge needed.
+          </h6>
+          <div class="email flex">
+                <input
+                  class="py-4 px-6 min-w-[220px] w-[65%] mr-3 border border-black rounded-md focus:outline-lightGreen"
+                  type="email"
+                  name="email"
+                  id=""
+                  placeholder="Enter your email address"
+                />
+            <button
+              class="nav-btn py-4 px-6 bg-lightGreen text-base text-white font-bold rounded-md hover:bg-darkGreen w-[135px]"
+            >
+              Try for free
+            </button>
+          </div>
+          <p class="text-xs">
+            Try Shopify free for 14 days, no credit card required. By entering
+            your email, you agree to receive marketing emails from Shopify.
+          </p>
+        </div>
+        <div class="hero-right lg:w-1/2 self-end">
+          <div class="video__video-container">
+            <video
+              muted="muted"
+              loop="loop"
+              playsinline="playsinline"
+              data-autoplay="true"
+              data-lazyload="true"
+              data-poster="https://cdn.shopify.com/shopifycloud/brochure/assets/home/hero/exp-inbrochurebannerv2-video-poster-f61611dccbbf0aaa60f0e6aa3662448acc8ab35938a29bae99a61366874a43ef.png"
+              class="video__video"
+              autoplay=""
+              poster="https://cdn.shopify.com/shopifycloud/brochure/assets/home/hero/exp-inbrochurebannerv2-video-poster-f61611dccbbf0aaa60f0e6aa3662448acc8ab35938a29bae99a61366874a43ef.png"
+            >
+              <source
+                data-src="https://cdn.shopify.com/shopifycloud/brochure/assets/home/inbrochurebannerv2-firstsale-7285dab321cc85c3b6ac858bce1a2b0a2db3504db0937e1883dc96d195524da5.webm"
+                type="video/webm"
+                src="https://cdn.shopify.com/shopifycloud/brochure/assets/home/inbrochurebannerv2-firstsale-7285dab321cc85c3b6ac858bce1a2b0a2db3504db0937e1883dc96d195524da5.webm"
+              />
+              <source
+                data-src="https://cdn.shopify.com/shopifycloud/brochure/assets/home/inbrochurebannerv2-firstsale-940ad0c283f5ed6a3798ba1cbd43a74eeae14774d2822049989d359a8efc1b4a.mp4"
+                type="video/mp4"
+                src="https://cdn.shopify.com/shopifycloud/brochure/assets/home/inbrochurebannerv2-firstsale-940ad0c283f5ed6a3798ba1cbd43a74eeae14774d2822049989d359a8efc1b4a.mp4"
+              />
+            </video>
           </div>
         </div>
-        <div class="nav-right flex gap-6 items-center">
-          <div class="left-links flex gap-6">
-            <a href="#" class="links text-[17px] text-textPr font-medium"
-              >Pricing</a
-            >
-            <a href="#" class="links text-[17px] text-textPr font-medium"
-              >Learn
-              <img class="inline-block" src="./assets/down-arrow.svg" alt=""
-            /></a>
-            <a href="#" class="links text-[17px] text-textPr font-medium"
-              >Log in</a
-            >
-          </div>
-          <button
-            class="nav-btn py-3 px-5 bg-lightGreen text-base text-white font-bold rounded-md hover:bg-darkGreen"
-          >
-            Try for free
-          </button>
-        </div>
-      </nav>
-      <!-- Mobile Nav -->
-      <nav class="mob-nav flex justify-between items-center lg:hidden gap-10 px-5 py-2 bg-heroBg">
-        <div class="nav-left flex gap-10 items-center">
-          <img class="w-[120px]" src="./assets/logo.png" alt="" />
-        </div>
-        <div class="nav-right flex gap-6 items-center">
-          <div class="left-links flex gap-6">
-            <a href="#" class="links text-[17px] text-textPr font-medium"
-              >Log in</a
-            >
-          </div>
-          <img src="./assets/menu.svg" alt="" />
-        </div>
-      </nav>
+      </section>
     </div>
   </body>
 </html>

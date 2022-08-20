@@ -25,6 +25,21 @@
       type="image/png"
       href="https://cdn.shopify.com/static/shopify-favicon.png"
     />
+    <style>
+        #up-arrow {
+            transition: 0.25s all ease;
+            bottom: 0;
+        }
+        
+        button {
+            transition: 0.25s all ease;
+
+        }
+
+        .btn:hover #up-arrow {
+            bottom: 10px;
+        }
+    </style>
     <title>Shopify-Clone</title>
   </head>
   <body>
@@ -630,12 +645,13 @@
         >
           Start free trial
         </button>
-        <h6 class="flex font-bold items-center md:self-end">
+        <h6 class="btn flex font-bold items-center md:self-end">
             <div class="mr-1 text-lg duration-300 text-lightGreen">
               Back to top
             </div>
             <img
               class="duration-300 pt-1 rotate-[270deg] relative"
+              id="up-arrow"
               src="./assets/right-arrow-green.svg"
               alt=""
             />

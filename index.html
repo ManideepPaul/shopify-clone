@@ -5,6 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <script src="https://cdn.tailwindcss.com"></script>
+    <script
+      src="https://kit.fontawesome.com/bfb02874c4.js"
+      crossorigin="anonymous"
+    ></script>
     <script>
       tailwind.config = {
         theme: {
@@ -26,19 +30,18 @@
       href="https://cdn.shopify.com/static/shopify-favicon.png"
     />
     <style>
-        #up-arrow {
-            transition: 0.25s all ease;
-            bottom: 0;
-        }
-        
-        button {
-            transition: 0.25s all ease;
+      #up-arrow {
+        transition: 0.25s all ease;
+        bottom: 0;
+      }
 
-        }
+      button {
+        transition: 0.25s all ease;
+      }
 
-        .btn:hover #up-arrow {
-            bottom: 10px;
-        }
+      .btn:hover #up-arrow {
+        bottom: 10px;
+      }
     </style>
     <title>Shopify-Clone</title>
   </head>
@@ -631,14 +634,15 @@
         />
       </section>
       <!-- Free Trial Section -->
-      <section class="free-trial flex flex-col items-center text-center gap-6 px-6 pt-16 pb-10 xl:px-24">
+      <section
+        class="free-trial flex flex-col items-center text-center gap-6 px-6 pt-16 pb-10 xl:px-24"
+      >
         <h3 class="text-2xl md:text-[30px] text-textPr">
           Start your business journey with Shopify
         </h3>
         <p class="md:text-lg text-textSec">
           Try Shopify for free, and explore all the tools and services you need
-          to start, run, and grow
-          your business.
+          to start, run, and grow your business.
         </p>
         <button
           class="nav-btn py-4 px-6 bg-lightGreen text-base text-white font-bold rounded-md hover:bg-darkGreen"
@@ -646,27 +650,255 @@
           Start free trial
         </button>
         <h6 class="btn flex font-bold items-center md:self-end">
-            <div class="mr-1 text-lg duration-300 text-lightGreen">
-              Back to top
-            </div>
-            <img
-              class="duration-300 pt-1 rotate-[270deg] relative"
-              id="up-arrow"
-              src="./assets/right-arrow-green.svg"
-              alt=""
-            />
-          </h6>
+          <div class="mr-1 text-lg duration-300 text-lightGreen">
+            Back to top
+          </div>
+          <img
+            class="duration-300 pt-1 rotate-[270deg] relative"
+            id="up-arrow"
+            src="./assets/right-arrow-green.svg"
+            alt=""
+          />
+        </h6>
       </section>
       <!-- Footer Section -->
-      <footer class=" bg-[#002E25] text-white">
-        <div class="footer-top px-6 xl:px-24 mb-4">
-            <div class="links border-solid border-b border-[#ffffff80] flex gap-6">
-                <h6 class="font-bold duration-100 border-solid hover:border-b-2 border-white py-6">About</h6>
-                <h6 class="font-bold duration-100  border-solid hover:border-b-2 border-white  py-6">Careers</h6>
-                <h6 class="font-bold duration-100  border-solid hover:border-b-2 border-white  py-6">Press and Media</h6>
-                <h6 class="font-bold duration-100  border-solid hover:border-b-2 border-white  py-6">Shopify Plus</h6>
-                <h6 class="font-bold duration-100  border-solid hover:border-b-2 border-white  py-6">Sitemap</h6>
+      <footer class="bg-[#002E25] text-white">
+        <div class="footer-top text-sm px-6 xl:px-24">
+          <div
+            class="links flex justify-center sm:justify-start flex-wrap gap-6 py-5 sm:py-0"
+          >
+            <h6
+              class="font-bold duration-100 sm:border-solid sm:hover:border-b-2 sm:border-white sm:py-6"
+            >
+              About
+            </h6>
+            <h6
+              class="font-bold duration-100 sm:border-solid sm:hover:border-b-2 sm:border-white sm:py-6"
+            >
+              Careers
+            </h6>
+            <h6
+              class="font-bold duration-100 sm:border-solid sm:hover:border-b-2 sm:border-white sm:py-6"
+            >
+              Press and Media
+            </h6>
+            <h6
+              class="font-bold duration-100 sm:border-solid sm:hover:border-b-2 sm:border-white sm:py-6"
+            >
+              Shopify Plus
+            </h6>
+            <h6
+              class="font-bold duration-100 sm:border-solid sm:hover:border-b-2 sm:border-white sm:py-6"
+            >
+              Sitemap
+            </h6>
+          </div>
+        </div>
+        <div class="footer-mid text-sm px-6 xl:px-24">
+          <div
+            class="link-tabs py-5 border-solid border-t border-[#ffffff80] flex gap-20 flex-wrap"
+          >
+            <div class="left-links">
+              <h6 class="font-bold mb-3">Online store</h6>
+              <div class="link-tabs flex gap-5 flex-wrap">
+                <div class="links-1">
+                  <p
+                    class="text-[#ffffff90] hover:text-white duration-200 mb-2"
+                  >
+                    Sell online
+                  </p>
+                  <p
+                    class="text-[#ffffff90] hover:text-white duration-200 mb-2"
+                  >
+                    Features
+                  </p>
+                  <p
+                    class="text-[#ffffff90] hover:text-white duration-200 mb-2"
+                  >
+                    Examples
+                  </p>
+                  <p
+                    class="text-[#ffffff90] hover:text-white duration-200 mb-2"
+                  >
+                    Website builder
+                  </p>
+                  <p
+                    class="text-[#ffffff90] hover:text-white duration-200 mb-2"
+                  >
+                    Online retail
+                  </p>
+                  <p
+                    class="text-[#ffffff90] hover:text-white duration-200 mb-2"
+                  >
+                    Ecommerce website
+                  </p>
+                </div>
+                <div class="links-2">
+                  <p
+                    class="text-[#ffffff90] hover:text-white duration-200 my-2"
+                  >
+                    Domain names
+                  </p>
+                  <p
+                    class="text-[#ffffff90] hover:text-white duration-200 my-2"
+                  >
+                    Themes
+                  </p>
+                  <p
+                    class="text-[#ffffff90] hover:text-white duration-200 my-2"
+                  >
+                    Shopping cart
+                  </p>
+                  <p
+                    class="text-[#ffffff90] hover:text-white duration-200 my-2"
+                  >
+                    Ecommerce hosting
+                  </p>
+                  <p
+                    class="text-[#ffffff90] hover:text-white duration-200 my-2"
+                  >
+                    Mobile commerce
+                  </p>
+                </div>
+                <div class="links-3">
+                  <p
+                    class="text-[#ffffff90] hover:text-white duration-200 mb-2"
+                  >
+                    Ecommerce software
+                  </p>
+                  <p
+                    class="text-[#ffffff90] hover:text-white duration-200 mb-2"
+                  >
+                    Online store builder
+                  </p>
+                  <p
+                    class="text-[#ffffff90] hover:text-white duration-200 mb-2"
+                  >
+                    Dropshipping Business
+                  </p>
+                  <p
+                    class="text-[#ffffff90] hover:text-white duration-200 mb-2"
+                  >
+                    Store themes
+                  </p>
+                </div>
+              </div>
             </div>
+            <div class="right-links flex gap-6 flex-wrap">
+              <div class="link-1 flex flex-col">
+                <h6 class="font-bold mb-3">POINT OF SALE</h6>
+                <p class="text-[#ffffff90] hover:text-white duration-200 mb-2">
+                  Point of sale
+                </p>
+                <p class="text-[#ffffff90] hover:text-white duration-200 mb-2">
+                  Features
+                </p>
+              </div>
+              <div class="link-2 flex flex-col">
+                <h6 class="font-bold mb-3">SUPPORT</h6>
+                <p class="text-[#ffffff90] hover:text-white duration-200 mb-2">
+                  24/7 support
+                </p>
+                <p class="text-[#ffffff90] hover:text-white duration-200 mb-2">
+                  Shopify Help Center
+                </p>
+                <p class="text-[#ffffff90] hover:text-white duration-200 mb-2">
+                  Shopify Community
+                </p>
+                <p class="text-[#ffffff90] hover:text-white duration-200 mb-2">
+                  API documentation
+                </p>
+                <p class="text-[#ffffff90] hover:text-white duration-200 mb-2">
+                  Free tools
+                </p>
+                <p class="text-[#ffffff90] hover:text-white duration-200 mb-2">
+                  Free stock photos
+                </p>
+                <p class="text-[#ffffff90] hover:text-white duration-200 mb-2">
+                  Websites for sale
+                </p>
+                <p class="text-[#ffffff90] hover:text-white duration-200 mb-2">
+                  Logo Maker
+                </p>
+                <p class="text-[#ffffff90] hover:text-white duration-200 mb-2">
+                  Business name generator
+                </p>
+                <p class="text-[#ffffff90] hover:text-white duration-200 mb-2">
+                  Research
+                </p>
+                <p class="text-[#ffffff90] hover:text-white duration-200 mb-2">
+                  Legal
+                </p>
+              </div>
+              <div class="link-2 flex flex-col">
+                <h6 class="font-bold mb-3">SHOPIFY</h6>
+                <p class="text-[#ffffff90] hover:text-white duration-200 mb-2">
+                  Contact
+                </p>
+                <p class="text-[#ffffff90] hover:text-white duration-200 mb-2">
+                  Partner program
+                </p>
+                <p class="text-[#ffffff90] hover:text-white duration-200 mb-2">
+                  Affiliate program
+                </p>
+                <p class="text-[#ffffff90] hover:text-white duration-200 mb-2">
+                  App developers
+                </p>
+                <p class="text-[#ffffff90] hover:text-white duration-200 mb-2">
+                  Investors
+                </p>
+                <p class="text-[#ffffff90] hover:text-white duration-200 mb-2">
+                  Blog topics
+                </p>
+                <p class="text-[#ffffff90] hover:text-white duration-200 mb-2">
+                  Community Events
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="footer-bottom flex flex-wrap items-center justify-center gap-5 sm:justify-between border-solid border-t border-[#ffffff80] px-6 xl:px-24 py-6"
+        >
+          <div class="social flex gap-5">
+            <i class="fa-brands fa-facebook-f text-md"></i>
+            <i class="fa-brands fa-twitter text-md"></i>
+            <i class="fa-brands fa-youtube text-md"></i>
+            <i class="fa-brands fa-instagram text-md"></i>
+            <i class="fa-brands fa-linkedin-in text-md"></i>
+            <i class="fa-brands fa-pinterest-p text-md"></i>
+          </div>
+          <div class="right text-sm flex items-center gap-3">
+            <span class="text-[#ffffff90] hover:text-white duration-200">Terms of Services</span>
+            <span class="text-[#ffffff90] hover:text-white duration-200">Privacy Policy</span>
+            <span class=""
+            >
+            <svg
+              class="fill-white inline-block"
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 24 24"
+              width="16"
+              height="16"
+            >
+              <path fill="none" d="M0 0h24v24H0z" />
+              <path
+                d="M12 22C6.477 22 2 17.523 2 12S6.477 2 12 2s10 4.477 10 10-4.477 10-10 10zm-2.29-2.333A17.9 17.9 0 0 1 8.027 13H4.062a8.008 8.008 0 0 0 5.648 6.667zM10.03 13c.151 2.439.848 4.73 1.97 6.752A15.905 15.905 0 0 0 13.97 13h-3.94zm9.908 0h-3.965a17.9 17.9 0 0 1-1.683 6.667A8.008 8.008 0 0 0 19.938 13zM4.062 11h3.965A17.9 17.9 0 0 1 9.71 4.333 8.008 8.008 0 0 0 4.062 11zm5.969 0h3.938A15.905 15.905 0 0 0 12 4.248 15.905 15.905 0 0 0 10.03 11zm4.259-6.667A17.9 17.9 0 0 1 15.973 11h3.965a8.008 8.008 0 0 0-5.648-6.667z"
+              />
+            </svg>
+              India
+              <svg
+                class="fill-white inline-block"
+                xmlns="http://www.w3.org/2000/svg"
+                height="24px"
+                viewBox="0 0 24 24"
+                width="24px"
+                fill="#000000"
+              >
+                <path d="M0 0h24v24H0V0z" fill="none" />
+                <path d="M7 10l5 5 5-5H7z" />
+              </svg>
+            </span>
+          </div>
         </div>
       </footer>
     </div>

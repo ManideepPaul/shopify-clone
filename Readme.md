@@ -6,6 +6,9 @@
 
 <br>
 
+![HTML](https://img.shields.io/badge/-HTML-D4F6CC?logo=HTML5)
+![HTML](https://img.shields.io/badge/tailwind%20css-FAF2FA?logo=tailwindcss)
+
 ### Live link
 
 - [Click me](https://shopify-clone-one.vercel.app/) to view the project.

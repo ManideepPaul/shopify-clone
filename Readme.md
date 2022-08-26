@@ -1,6 +1,8 @@
 # Shopify Clone
 
-- Completed this project using Tailwindcss and HTML
+- I created a homepage for **SHOPIFY** that is an exact replica of the homepage for the company's official website. 
+- I used Tailwind CSS, HTML, and a little bit of CSS to create this project. 
+- It is fully responsive for all screen sizes.
 
 - It took me around **8 hour** to complete the project.
 

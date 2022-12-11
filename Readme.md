@@ -13,7 +13,7 @@
 
 ### Live link
 
-- [Click me](https://shopify-clone-one.vercel.app/) to view the project.
+- [Click me](https://my-shopify-clone.vercel.app/) to view the project.
 
 
 
